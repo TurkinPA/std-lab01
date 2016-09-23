@@ -1,7 +1,10 @@
 #include <stdio.h>
-
+#include <iostream>
+using namespace std;
 int main(int argc, char **argv)
 {
-	printf("hello world\n");
-	return 0;
+cout << "Введите два числа"<< endl;
+double a,b;
+cin >> a >> b ;
+return 0;  	
 }
